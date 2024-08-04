@@ -22,8 +22,19 @@ module.exports = {
           1:'#1C1F2E',
           2:"#161925"
         },
-        blue:"#0E78F9"
-        ,
+        blue:"#0E78F9",
+        sky:{
+          1:'#C9DDFF'
+        },
+        orange:{
+            1:"#FF742E"
+        },
+        purple:{
+          1:"#830EF9"
+        },
+        yellow:{
+          1:"#F9A90E"
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -58,6 +69,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      backgroundImage: {
+        hero:"url('/images/hero-background.png')",
+     },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
