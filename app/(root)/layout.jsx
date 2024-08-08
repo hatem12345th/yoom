@@ -1,6 +1,12 @@
 import StreamVideoProvider from '@/providers/StreamClientProvider'
-import React from 'react'
 
+export const metadata = {
+  title: "YOOM",
+  description: " Video Calling app",
+  icons:{
+    icon: "/icons/logo.svg"
+  }
+};
 const MeetingLayout = ({children}) => {
   return (
     <div>
