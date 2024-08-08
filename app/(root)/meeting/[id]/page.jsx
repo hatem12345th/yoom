@@ -22,7 +22,7 @@ const Meeting = ({params}) => {
       <StreamCall call={call}  >
           <StreamTheme>
               {! setupComplete ? (
-                  <MeetingSetup />
+                  <MeetingSetup setIsSetupComplete={setSetupComplete} />
               ):(
                   <MeetingRoom />
               )}
