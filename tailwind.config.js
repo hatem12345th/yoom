@@ -20,11 +20,16 @@ module.exports = {
       colors: {
         dark: {
           1:'#1C1F2E',
-          2:"#161925"
+          2:"#161925", 
+          3: '#252A41',
+          4: '#1E2757',
         },
         blue:"#0E78F9",
+       
         sky:{
-          1:'#C9DDFF'
+          1:'#C9DDFF',
+          2: '#ECF0FF',
+          3: '#F5FCFF',
         },
         orange:{
             1:"#FF742E"
